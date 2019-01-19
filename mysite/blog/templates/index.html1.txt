@@ -1,0 +1,900 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="知识平台" name="keywords">
+<meta content="知识平台" name="description">
+<title> 首页-风享-智慧直驱未来，分享点亮世界</title>
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/favicon.ico" rel="shortcut icon">
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/global.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/menu.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/form.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/module.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/fonts.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/skin/skin_0.css?v=20181008" rel="stylesheet" type="text/css" id="skinCss" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/fineuploader/fineuploader-3.3.1.css?v=20181008" rel="stylesheet" type="text/css" />
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/portal/portal.css?v=20181008" rel="stylesheet" type="text/css"/><script>
+/**
+ * 全局变量
+ */
+var SITE_URL  = 'http://f.goldwind.com.cn';
+var THEME_URL = 'http://f.goldwind.com.cn/addons/theme/stv1/_stastic';
+var APPNAME   = 'portal';
+var MID		  = '10610';
+var UID		  = '10610';
+var initNums  =  '300';
+// Js语言变量
+var LANG = new Array();
+var VERSION   = '20181008';
+var COOKIE_PREFIX = 'GW';
+var URL_MOD 	  = '1';
+var user_count_close = '';
+
+var $config = { };
+</script>
+<script src="http://f.goldwind.com.cn/config/lang/zh-cn.js?v=20181008"></script><!--[if lt IE 10]>
+<script type="text/javascript" src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/iecss/PIE.js"></script>
+<![endif]-->
+
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/jquery.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/jquery.foucs.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/core.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/module.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/common.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/ui.core.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/ui.draggable.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/module.common.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/placeholder.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/fineuploader/fineuploader-3.3.1.js?v=20181008"></script>
+<script src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/js/module.form.js?v=20181008"></script>
+</head>
+<body>
+
+<div id="body_page" name='body_page'>
+    <div id="header" name="header">
+                <div class="header">
+                <div class="logo">
+                    <a href="http://f.goldwind.com.cn/Index/index.html"><img src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/log.png"></a>
+                </div>
+                <div class="skin" model-node="js_skin">
+                    <em id="skin_by_skin" class="skin_0"></em>
+                    <div class="layer-skin">
+                        <a href="javascript:;" id="skin_0"  class="selected" ><span></span></a>
+                        <a href="javascript:;" id="skin_1" ><span></span></a>
+                        <a href="javascript:;" id="skin_2" ><span></span></a>
+                        <a href="javascript:;" id="skin_3" ><span></span></a>
+                        <a href="javascript:;" id="skin_4" ><span></span></a>
+                        <a href="javascript:;" id="skin_5" ><span></span></a>
+                    </div> 
+                </div>
+                <div class="nav">
+                    <ul>
+                                                                          <li ><a href="http://f.goldwind.com.cn/Index/index.html" target="_self" class="a-tab">首页</a></li>                          <li ><a href="http://f.goldwind.com.cn/subjects" target="_self" class="a-tab">专题</a></li>                          <li ><a href="http://f.goldwind.com.cn/index.php?app=team&amp;mod=Index&amp;act=index" target="_self" class="a-tab">社群</a></li>                          <li ><a href="http://f.goldwind.com.cn/index.php?app=file" target="_self" class="a-tab">知识库</a></li>                          <li ><a href="http://f.goldwind.com.cn/Index/harvest.html" target="_self" class="a-tab">知识收割</a></li>                          <li ><a href="http://f.goldwind.com.cn/index.php?app=map" target="_self" class="a-tab">知识地图</a></li>                          <li ><a href="http://f.goldwind.com.cn/index.php?app=wiki" target="_self" class="a-tab">词库</a></li>                          <li ><a href="http://f.goldwind.com.cn/index.php?app=subject" target="_self" class="a-tab">面对面</a></li>                        <li model-node="nav" class="dorp-left">
+                                <a href="javascript:;" class="a-tab">更多<span class="ico-down-solid"></span></a>
+                                <div class="dropmenu" model-node="drop_menu_list">
+                                    <dl>
+                                        <dd><a href="http://f.goldwind.com.cn/index.php?app=blog&amp;mod=Index&amp;act=index" target="_self"><span>博客</span></a></dd><dd><a href="http://f.goldwind.com.cn/index.php?app=public&amp;mod=Index&amp;act=team" target="_self"><span>WE TEAM</span></a></dd><dd><a href="http://f.goldwind.com.cn/index.php?app=ask" target="_self"><span>问答</span></a></dd><dd><a href="http://f.goldwind.com.cn/index.php?app=public&amp;mod=Index&amp;act=index" target="_self"><span>微博</span></a></dd><dd><a href="http://f.goldwind.com.cn/index.php?app=expert&amp;mod=Index&amp;act=index" target="_self"><span>专家</span></a></dd>                                    </dl>
+                                </div>
+                            </li>                    </ul>
+                </div>
+                                 <div class="person">
+                    <ul>
+                        <li model-node="notice" class="dorp-right">
+                            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=public" class="q-tab"><i class="ico-search-white"></i></a>
+                        </li>
+                        <li model-node="notice" class="dorp-right">
+                            <a href="javascript:;" class="q-tab">
+                                <i class="ico ico-clock"></i><span class="count" style="display:none" id="user_total_count" ></span>
+                            </a>
+                            <div  class="dropmenu menu-message" model-node="drop_menu_list">
+                                <dl>
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Message&act=notify">消息<div class="msg-count" style="display:none"><span id="user_notify_count"></span></div></a></dd>
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Message&act=index">私信<div class="msg-count" style="display:none"><span id="user_message_count"></span></div></a></dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li model-node="person" class="dorp-right">
+                            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Index&act=index" class="app avatar">
+                                <img src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg"/>何东亚<i class="icon-arrow-down"></i>
+                            </a>
+                            <div model-node="drop_menu_list" class="dropmenu">
+                                <dl class="menu-profile">
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=10610">我的微博</a></dd>
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=data&uid=10610">我的档案</a></dd>
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Collection&act=index">我的收藏</a></dd>
+                                    <dd><a href='http://f.goldwind.com.cn/index.php?app=team&mod=Index&act=my'>我的社群</a></dd><dd><a href='http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=index'>我的博客</a></dd><dd><a href='http://f.goldwind.com.cn/index.php?app=ask&mod=Index&act=my'>我的问答</a></dd><dd><a href='http://f.goldwind.com.cn/index.php?app=file&mod=Profile&act=index'>我的知识库</a></dd>                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=wiki&mod=Index&act=myWiki">我的词条</a></dd>
+                                    <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Account&act=index">设置</a></dd>
+                                    
+                                                                        <dd><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Passport&act=logout">退出</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>        </div></div> 
+
+
+
+
+
+
+<script type="text/javascript" src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/portal/helper.js"></script>
+<script type="text/javascript" src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/portal/core.js" ></script>
+<script type="text/javascript" src="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/portal/diy.js"></script>
+
+<link href="http://f.goldwind.com.cn/addons/theme/stv1/_stastic/portal/portal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body{ background-repeat:;background-position:;background-position-i:;background-attachment:;background-image:;background-attach-id:;background-color:; }
+</style>
+
+<div id="default" class="diy_content container ts_diy_body"><div id="mydiv_12797" class="ts_diy_layout" style="width: 100%;"  ><!--editDefault--><div style="width: 100%" class="diy_box L09f container" horizontal="1"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 10px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" >
+    <!--Content-->
+<div class="pic-fullColumn" id='pic-sid1547516859'>
+    <div class="prev"><a href="javascript:;"></a></div>
+    <div class="next"><a href="javascript:;"></a></div>
+    <div id="imgs1547516859" class="pic" style="height:360px">
+             <a href='http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=27' target='_blank' title=''  onclick='' class='img_item active'><img src='http://f.goldwind.com.cn/data/upload/2019/0108/11/5c3418a69f816.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/pitchsystem.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2019/0115/09/5c3d3bc4c4c5f.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/NCOWET.html?2' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/1221/11/5c1c59a586f1c.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/GIAC2018.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/1101/13/5bda8faad5e05.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/Standardization.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/1010/14/5bbd98f9b9495.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/TORQUE2018.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0711/16/5b45c03b7b8d6.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/HSE.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0626/14/5b31dc61e3640.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/LightningProtection.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0619/10/5b28668e90a2a.jpg' alt='' width='1210' height='360'/></a><a href='http://f.goldwind.com.cn/Index/AWEA2018.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0518/11/5afe4761d1fbc.jpg' alt='' width='1210' height='360'/></a>    </div>
+    <div id="txt-bg" class="hover"></div>
+    <div id="txt">
+        <div class='over-show active hover' ><a href='http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=27' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/pitchsystem.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/NCOWET.html?2' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/GIAC2018.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/Standardization.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/TORQUE2018.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/HSE.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/LightningProtection.html' target='_blank'></a></div><div class='over-show hover' ><a href='http://f.goldwind.com.cn/Index/AWEA2018.html' target='_blank'></a></div>        <div class="clickButton" id="cb1547516859">
+        <span class='b_item  active' title='1'>1</span><span class='b_item ' title='2'>2</span><span class='b_item ' title='3'>3</span><span class='b_item ' title='4'>4</span><span class='b_item ' title='5'>5</span><span class='b_item ' title='6'>6</span><span class='b_item ' title='7'>7</span><span class='b_item ' title='8'>8</span><span class='b_item ' title='9'>9</span>        </div>
+    </div>
+</div>
+<!--End Content-->
+<script language="javascript" type="text/javascript">
+Normal.doc = window.document;
+Normal.add("imagesqh",function(S,D,self){
+    var limitTime = '3000';
+    var doc = Normal.doc || window.document;
+    function getid(id){return doc.getElementById(id)};
+    var scroller =function(id,imgid,cbid,opt){
+        var parentElement = getid(id);
+        if(S.isNull(parentElement)) return;
+        var imgArray = getid(imgid).getElementsByTagName('a');
+        var showArray =getElementsByClassName("over-show",parentElement);
+        var buttonArray=getElementsByClassName("b_item",parentElement);
+        var size=imgArray.length;
+        var interval;
+        var pic_scroller=getid(id)
+        var img_id=getid(imgid)
+        var width=pic_scroller.style.width;
+        /*for(var i=0;i<showArray.length;i++){
+            showArray[i].style.width=width;
+        }  */
+        var times = 1;
+        interval = window.setInterval(function() {
+            times++;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            changeImage(times);
+        }, limitTime);
+
+        function removeClassName(element,classname){
+            var theClassName;
+            do{
+                theClassName=element.className;
+                element.className=theClassName.replace(classname, " ")
+
+            }while(theClassName.indexOf(classname)>=0);
+        }
+
+        function getElementsByClassName(className, parentElement){
+            var elems = (parentElement||document.body).getElementsByTagName("*");
+            var result=[];
+            for (i=0; j=elems[i]; i++){
+                if ((" "+j.className+" ").indexOf(" "+className+" ")!=-1){
+                    result.push(j);
+                }
+            }
+            return result;
+        }
+
+        function changeImage(times) {
+            var _temp = times-1;
+
+            try{
+                if(imgArray[_temp].className.indexOf("active")==-1){
+                        imgArray[_temp].className+=" active";
+                }
+                if(showArray[_temp].className.indexOf("active")==-1){
+                    showArray[_temp].className+=" active";
+                }
+                if(buttonArray[_temp].className.indexOf("active")==-1){
+                    buttonArray[_temp].className+=" active";
+                }
+                for(var i=0;i<size;i++){
+                    if(i!=_temp){
+                         removeClassName(imgArray[i],'active');
+                         removeClassName(showArray[i],'active');
+                         removeClassName(buttonArray[i],'active');
+                    }
+                }
+            }catch(e){
+                return false;
+            }
+        }
+        function stopval(index,type){
+            try{
+                if(type==0){
+                    clearInterval(interval);
+                    changeImage(index);
+                }else{
+                    clearInterval(interval);
+                    interval = window.setInterval(function() {
+                        index +=1
+                        if (index > size ) {
+                            index = 1;
+                        }
+                        changeImage(index);
+                    }, limitTime);
+                }
+            }catch(e){
+                return false;
+            }
+        }
+        var prev = getElementsByClassName('prev',parentElement);
+        S.event.add(prev,'click',function(){
+            times--;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            stopval(times,0)
+            return false;
+        });
+        S.event.add(prev,'mouseout',function(){stopval(times,1);return false;});
+        var next = getElementsByClassName('next',parentElement);
+        S.event.add(next,'click',function(){
+            times++;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            stopval(times,0)
+            return false;
+        });
+        S.event.add(next,'mouseout',function(){stopval(times,1);return false;});
+
+    };
+
+    S.each(self.id,function(item){
+        scroller('pic-sid'+item,'imgs'+item,'cb'+item,{width:1210,img_height:360});
+    })
+},{id:'1547516859'});
+</script>        <div class="C">
+        </div>
+    </div>
+</div></div><div class="C"></div></div><div id="mydiv_12798" class="ts_diy_layout" style="width: 100%;"  ><!--editDefault--><div style="width: 100%" class="diy_box L09f container" horizontal="1"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 10px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:20px 0px 20px 0px;margin:0px 0px 0px 0px;" >
+    <!--Content-->
+<div class="pic-swiper slider_div" id='pic-sid1546918113'>
+	<div class="prev previous" ><a href="javascript:void(0)" hidefocus="true">&nbsp;&nbsp;</a></div>
+	<div class="inner-slider">
+	    <div id="imgs1546918113" class="slider_mod" style="height:72px">
+	    	<ul>
+	     	        <li><a href='http://f.goldwind.com.cn/Index/Pitch.html' target='_blank' title=''  onclick='' class='img_item active'><img src='http://f.goldwind.com.cn/data/upload/2019/0108/11/5c3418ec57497.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/IIsummit.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/1221/10/5c1c505fe2627.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Offshore1.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/1010/14/5bbd98a2495f9.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/global.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0619/14/5b28a93605580.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/SupplierConference.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0402/09/5ac187cb49acf.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/IPer.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0711/16/5b45bfd5151df.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/oceanProject.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0621/09/5949c72243858.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/index.php?app=map&mod=Index&act=detail&map_id=118' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0412/15/58edd18b2cf03.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Mechanical.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0406/17/58e60a3f1f7e1.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Controller.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0209/10/5a7d0ac266c3d.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/research.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0510/13/5af3d42dae7fb.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/converter.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2016/1222/13/585b66d5a05ec.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/advisory.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0420/18/58f88a87205e5.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/monitor.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0518/11/5afe4673dcbdc.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Visual.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0519/14/591e91c9e6f3c.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Technology.html' target='_self' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0406/17/58e60b2ba756e.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/tpl/Innovation.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0418/14/58f5afed2c5af.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/Fatigueanalysis.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0406/17/58e609a324edc.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/train.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2016/1125/11/5837ae06da82c.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/honor.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2018/0206/15/5a795b592fa44.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/index.php?app=subject&mod=Index&act=detail&id=17' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2017/0406/18/58e614ff62bfa.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Index&act=point' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2016/1125/11/5837ae4c7fd99.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Index&act=appinfo' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2016/1125/11/5837ae53543b9.jpg' alt='' width='180' height='72'/></li></a><li><a href='http://f.goldwind.com.cn/Index/tpl.html' target='_blank' title=''  onclick='' class='img_item'><img src='http://f.goldwind.com.cn/data/upload/2016/1125/11/5837ae7fe3df2.jpg' alt='' width='180' height='72'/></li></a>		    </ul>
+	    </div>
+    </div>
+    <div class="next"><a href="javascript:void(0)"  hidefocus="true" >&nbsp;&nbsp;</a></div>
+</div>
+<!--End Content-->
+<script language="javascript" type="text/javascript">
+
+$(function(){
+    var slider_obj = $('#pic-sid1546918113 .slider_mod');
+    var slider_li  = $('#pic-sid1546918113 li');
+    var count = '24';
+    var nums  = Math.round(slider_obj.width()/slider_li.width());
+    if(nums > count){
+      $('#pic-sid1546918113 .prev').hide();
+      $('#pic-sid1546918113 .next').hide();
+    }
+});
+</script>        <div class="C">
+        </div>
+    </div>
+</div></div><div class="C"></div></div><div id="mydiv_12799" class="ts_diy_layout" style="width: 100%;"  ><!--editDefault--><div style="width: 65.5648%" class="diy_box L09f container" horizontal="1"><div class="container_tab1 ts_diy_tabs ts_diy_layout" id="mydiv_12802"  ><div class="container_tab_tit_b bg_diy_tit" style="margin:0px 0px 0px 0px"><ul class="tabs"><li class="current"><span>知识库</span></li><li ><span>知识地图</span></li><li ><span>博客</span></li></ul><!--editTab--></div><div class="columns-wrap"><div class="columns container" style="display: block;" horizontal="1"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 0px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 20px 10px 20px;margin:0px 0px 0px 0px;" >
+    <div class="hot-list">
+    <fieldset class="h-title"><legend>最新文档</legend></fieldset>
+    <ul class="h-ul">
+        <li><span>01-18</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5293" target="_blank"><i class="F-ico ico-docx"></i>（第一稿提交版）2018版技术发展规划V1+2...</a></li><li><span>01-14</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5292" target="_blank"><i class="F-ico ico-mp4"></i>数据监控部-FAMS服务请求操作指导.mp4</a></li><li><span>01-14</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5291" target="_blank"><i class="F-ico ico-doc"></i>FAMS服务请求操作手册.doc</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5287" target="_blank"><i class="F-ico ico-pdf"></i>7-15501620-胡清阳-变桨系统性能及可靠性...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5285" target="_blank"><i class="F-ico ico-pptx"></i>9-16501710-吉银辉-变桨轴承裂纹监测系统...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5283" target="_blank"><i class="F-ico ico-pptx"></i>6-15201550-张文兵-电动变桨系统电气试验...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5286" target="_blank"><i class="F-ico ico-pptx"></i>10-17101730-王明-齿形带无损检测工作分...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5284" target="_blank"><i class="F-ico ico-pptx"></i>8-16201650-曹阳-液压变桨HIL联调试验台....</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5281" target="_blank"><i class="F-ico ico-pdf"></i>4-14101440-李双虎-变桨系统仿真分析汇报...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5282" target="_blank"><i class="F-ico ico-pptx"></i>5-14401510-李祺- 变桨系统结构评估试验-...</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5280" target="_blank"><i class="F-ico ico-pptx"></i>4-1410140-段志强-变桨系统结构安全仿真....</a></li><li><span>01-11</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=5279" target="_blank"><i class="F-ico ico-pptx"></i>3-13401410-郝晶晶-需求工程和可靠性工程...</a></li>    </ul>
+</div>
+<div class="hot-list">
+    <fieldset class="h-title hm"><legend>最热文档</legend></fieldset>
+    <ul class="h-ul hm">
+        <li><span>12-15</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=449" target="_blank"><i class="F-ico ico-flv"></i>2-金风2.0MW变流器整机简介--李鹏.flv</a></li><li><span>12-15</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=447" target="_blank"><i class="F-ico ico-flv"></i>1-金风2.0MW变流器安全培训--李鹏_0.flv</a></li><li><span>12-15</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=448" target="_blank"><i class="F-ico ico-flv"></i>3-金风2.0MW变流器I型电气原理图 第一部...</a></li><li><span>10-24</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=82" target="_blank"><i class="F-ico ico-pdf"></i>2.5MW变桨驱器I型系统器件的识别及产品说...</a></li><li><span>12-14</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=407" target="_blank"><i class="F-ico ico-pdf"></i>2.5MW机组自主变流机侧断路器故障案例分...</a></li><li><span>12-15</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=454" target="_blank"><i class="F-ico ico-flv"></i>9-金风2.0MW网侧、机侧控制策略--周婧.fl...</a></li><li><span>12-23</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=531" target="_blank"><i class="F-ico ico-mp4"></i>3-金风2.5MW变流器I型电气原理图讲解_王...</a></li><li><span>12-22</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=527" target="_blank"><i class="F-ico ico-mp4"></i>3-金风2.5MW变流器I型电气原理图讲解_王...</a></li><li><span>12-19</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=490" target="_blank"><i class="F-ico ico-mp4"></i>2-金风2.5MW变流器Ⅰ型系列产品介绍（1）...</a></li><li><span>12-15</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=459" target="_blank"><i class="F-ico ico-flv"></i>7-2.0MW变流器故障分析（1）--刘闯.flv</a></li><li><span>12-14</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=412" target="_blank"><i class="F-ico ico-pdf"></i>哈密46#机侧过流处理案例.pdf</a></li><li><span>12-14</span><a href="http://f.goldwind.com.cn/index.php?app=file&mod=Index&act=detail&file_id=432" target="_blank"><i class="F-ico ico-flv"></i>1-金风2.5MW变流器系列产品安全使用须知_...</a></li>    </ul>
+</div>
+        <div class="C">
+        </div>
+    </div>
+</div></div><div class="columns container" style="display: none;" horizontal="2"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 0px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 20px 10px 20px;margin:0px 0px 0px 0px;" >
+    <div class="hot-list">
+    <fieldset class="h-title"><legend>最新知识地图</legend></fieldset>
+    <ul class="h-ul">
+        <li><span>03-09</span><a href="http://f.goldwind.com.cn/index.php?app=map&mod=Index&act=detail&map_id=118" target="_blank"><i class="ico-dot"></i>风享知识平台使用手册/说明</a></li><li><span>11-04</span><a href="http://f.goldwind.com.cn/index.php?app=map&mod=Index&act=detail&map_id=116" target="_blank"><i class="ico-dot"></i>海上风电技术标准知识地图</a></li>    </ul>
+</div>
+
+<div class="hot-list">
+    <fieldset class="h-title hm"><legend>最热知识地图</legend></fieldset>
+     <ul class="h-ul hm">
+        <li><span>11-04</span><a href="http://f.goldwind.com.cn/index.php?app=map&mod=Index&act=detail&map_id=116" target="_blank"><i class="ico-dot"></i>海上风电技术标准知识地图</a></li><li><span>03-09</span><a href="http://f.goldwind.com.cn/index.php?app=map&mod=Index&act=detail&map_id=118" target="_blank"><i class="ico-dot"></i>风享知识平台使用手册/说明</a></li>    </ul>
+</div>
+
+        <div class="C">
+        </div>
+    </div>
+</div></div><div class="columns container" style="display: none;" horizontal="3"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 0 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 20px 10px 20px;margin:0px 0px 0px 0px;" >
+    <div class="hot-list">
+    <fieldset class="h-title"><legend>最新博客</legend></fieldset>
+    <ul class="h-ul">
+        <li>
+            <span class="time">01-10</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=64" title="设计梯度与设计成本" target="_blank" class="name"><i class="ico-dot"></i>设计梯度与设计成本</a>
+                    </li><li>
+            <span class="time">01-08</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=63" title="GoldWRF中所使用的降尺度方法有哪些？" target="_blank" class="name"><i class="ico-dot"></i>GoldWRF中所使用的降尺度方法有哪些？</a>
+                    </li><li>
+            <span class="time">09-29</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=62" title="数字化是什么？" target="_blank" class="name"><i class="ico-dot"></i>数字化是什么？</a>
+                    </li><li>
+            <span class="time">06-26</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=61" title="风力发电机组内部防雷要点" target="_blank" class="name"><i class="ico-dot"></i>风力发电机组内部防雷要点</a>
+                    </li><li>
+            <span class="time">06-07</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=60" title="双馈型与直驱型风力发电机比对以及直驱式水平轴风力发电机简介" target="_blank" class="name"><i class="ico-dot"></i>双馈型与直驱型风力发电机比对以及直驱式...</a>
+                    </li><li>
+            <span class="time">06-07</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=59" title="涨知识！海上风电场是怎么建成的？" target="_blank" class="name"><i class="ico-dot"></i>涨知识！海上风电场是怎么建成的？</a>
+                    </li><li>
+            <span class="time">05-28</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=58" title="风电塔架焊接缺陷及防治措施" target="_blank" class="name"><i class="ico-dot"></i>风电塔架焊接缺陷及防治措施</a>
+                    </li><li>
+            <span class="time">05-21</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=57" title="风电场开发全流程简析" target="_blank" class="name"><i class="ico-dot"></i>风电场开发全流程简析</a>
+                    </li><li>
+            <span class="time">05-14</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=56" title="海上风电机组防腐技术研究与应用" target="_blank" class="name"><i class="ico-dot"></i>海上风电机组防腐技术研究与应用</a>
+                    </li><li>
+            <span class="time">05-10</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=55" title="长10多米！全球首个3D打印风力发电机叶片模具" target="_blank" class="name"><i class="ico-dot"></i>长10多米！全球首个3D打印风力发电机叶片...</a>
+                    </li>    </ul>
+</div>
+<div class="hot-list">
+    <fieldset class="h-title hm"><legend>最热博客</legend></fieldset>
+    <ul class="h-ul hm">
+        <li>
+            <span class="time">08-03</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=3" title="Predix Transform 2016--GE Predix首次开发者大会总结" target="_blank" class="name"><i class="ico-dot"></i>Predix Transform 2016--GE Predix首次开...</a>
+                    </li><li>
+            <span class="time">10-13</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=15" title="大风的大丰【图片】" target="_blank" class="name"><i class="ico-dot"></i>大风的大丰【图片】</a>
+                    </li><li>
+            <span class="time">11-04</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=22" title="液压变桨专题——不同控制方式下紧急停机状态仿真" target="_blank" class="name"><i class="ico-dot"></i>液压变桨专题——不同控制方式下紧急停机...</a>
+                    </li><li>
+            <span class="time">11-04</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=21" title="金风115/2000机组120m柔塔发散问题分析" target="_blank" class="name"><i class="ico-dot"></i>金风115/2000机组120m柔塔发散问题分析</a>
+                    </li><li>
+            <span class="time">11-04</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=20" title="GW121/2.0MW开发中载荷的那些事" target="_blank" class="name"><i class="ico-dot"></i>GW121/2.0MW开发中载荷的那些事</a>
+                    </li><li>
+            <span class="time">11-03</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=18" title="Bladed软件的疲劳载荷解析与雨流法的程序验证" target="_blank" class="name"><i class="ico-dot"></i>Bladed软件的疲劳载荷解析与雨流法的程序...</a>
+                    </li><li>
+            <span class="time">10-20</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=16" title="GE公司15亿欧元收购LM风电" target="_blank" class="name"><i class="ico-dot"></i>GE公司15亿欧元收购LM风电</a>
+                    </li><li>
+            <span class="time">11-04</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=23" title="适应性分析--云计算环境下Von Karman极端风设置方法探讨" target="_blank" class="name"><i class="ico-dot"></i>适应性分析--云计算环境下Von Karman极端...</a>
+                    </li><li>
+            <span class="time">09-07</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=8" title="美国2015年风能技术市场报告发布【内含报告原文】" target="_blank" class="name"><i class="ico-dot"></i>美国2015年风能技术市场报告发布【内含报...</a>
+                    </li><li>
+            <span class="time">11-14</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=blog&mod=Personal&act=detail&blog_id=25" title="实验室设备期间核查" target="_blank" class="name"><i class="ico-dot"></i>实验室设备期间核查</a>
+                    </li>    </ul>
+</div>
+        <div class="C">
+        </div>
+    </div>
+</div></div></div></div><div class="container_tab1 ts_diy_tabs ts_diy_layout" id="mydiv_12804"  ><div class="container_tab_tit_b bg_diy_tit" style="margin:20px 0px 0px 0px"><ul class="tabs"><li class="current"><span>社群文档</span></li><li ><span>社群话题</span></li></ul><!--editTab--></div><div class="columns-wrap"><div class="columns container" style="display: block;" horizontal="1"><div id="mydiv_12811" class="ts_diy_layout" style="width: 100%;"  ><!--editDefault--><div style="width: 100%" class="diy_box L09f container" horizontal="1"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 0px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 20px 10px 20px;margin:0px 0px 0px 0px;" >
+    <div class="hot-list" style="height:300px">
+    <fieldset class="h-title"><legend>最新文件</legend></fieldset>
+    <ul class="h-ul">
+    	<li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=246&team_id=9">22.风力发电机的电机市场分析...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=245&team_id=9">21.超级电容技术和市场2018-20...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=244&team_id=9">20.2017年风力涡轮机噪声会议...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=243&team_id=9">19.全球风力发电塔架市场—增...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=242&team_id=9">18.全球风力发电机塔架研究报...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=241&team_id=9">17.亚太地区微电网市场分析与...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=240&team_id=9">16.2017全球浮动发电市场研究...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=239&team_id=9">15.全球风电机舱市场2017-2021...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=238&team_id=9">14.2017年全球探测激光雷达市...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=237&team_id=9">13.全球风电激光雷达市场预测2...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=236&team_id=9">12.2018年全球及中国风电主轴...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=235&team_id=9">11.Make咨询2017年风力涡轮机...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=234&team_id=9">10.2017年风能运营与维护报告....</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=233&team_id=9">9.全球风电运行维护市场规模及...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=232&team_id=9">8.2018-2025风机运维市场预测...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=231&team_id=9">7.全球海上风电市场预测至2026...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=230&team_id=9">6.全球海上风电设备市场规模及...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=229&team_id=9">5.风力发电市场—全球市场规模...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=228&team_id=9">4.MAKE咨询发布2017年全球风力...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=227&team_id=9">3.风力涡轮机：技术，应用和全...</a></li>    </ul>
+</div>
+<div class="hot-list" style="height:300px">
+    <fieldset class="h-title hm"><legend>最热文件</legend></fieldset>
+    <ul class="h-ul hm">
+    	<li><span>01-10</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=179&team_id=19">变桨系统设计方法简析-高斯.pd...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=246&team_id=9">22.风力发电机的电机市场分析...</a></li><li><span>01-18</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=21" title="大数据分析及工具">[大数据分...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=136&team_id=21">Python学习手册(第4版).pdf</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=245&team_id=9">21.超级电容技术和市场2018-20...</a></li><li><span>01-10</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=181&team_id=19">认证计划制定方法与思路.pdf</a></li><li><span>01-11</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=184&team_id=19">宝宝的光学-Optical Physics f...</a></li><li><span>12-01</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=21" title="大数据分析及工具">[大数据分...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=68&team_id=21">基于R语言的跨平台大数据机器...</a></li><li><span>01-18</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=21" title="大数据分析及工具">[大数据分...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=134&team_id=21">Python简明教程.pdf</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=244&team_id=9">20.2017年风力涡轮机噪声会议...</a></li><li><span>04-02</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=213&team_id=19">2017-9-12 MAKE Q3 2017 Globa...</a></li><li><span>01-18</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=21" title="大数据分析及工具">[大数据分...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=135&team_id=21">Python基础教程(第2版).pdf</a></li><li><span>04-02</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=221&team_id=19">BGIA Report_22008e.pdf</a></li><li><span>01-11</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=183&team_id=19">宝宝的量子纠缠学-Quantum Ent...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=238&team_id=9">14.2017年全球探测激光雷达市...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=242&team_id=9">18.全球风力发电机塔架研究报...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=241&team_id=9">17.亚太地区微电网市场分析与...</a></li><li><span>12-01</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=21" title="大数据分析及工具">[大数据分...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=67&team_id=21">大数据标准化白皮书（2016）.p...</a></li><li><span>11-11</span><i class="F-ico ico-mp4"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=14" title="金风检测">[金风检测]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=26&team_id=14">How Do Rotary Unions Work in...</a></li><li><span>06-11</span><i class="F-ico ico-pptx"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=9" title="风享推广">[风享推广]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=243&team_id=9">19.全球风力发电塔架市场—增...</a></li><li><span>01-10</span><i class="F-ico ico-pdf"></i><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=Team&act=show&team_id=19" title="认证及合规管理部">[认证及合...]</a><a target="_blank" href="http://f.goldwind.com.cn/index.php?app=team&mod=File&act=detail&id=182&team_id=19">[Sunny_Baker]_The_Complete_I...</a></li>    </ul>
+</div>        <div class="C">
+        </div>
+    </div>
+</div></div><div class="C"></div></div></div><div class="columns container" style="display: none;" horizontal="2"><div id="mydiv_12810" class="ts_diy_layout" style="width: 100%;"  ><!--editDefault--><div style="width: 49.1736%" class="diy_box L09f container" horizontal="1"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 0 20px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 0 0 0;margin:0px 0px 0px 0px;" >
+    <div class="hot-list hw" style="height:300px;">
+    <ul class="h-ul">
+    	<li>
+            <span>563/25</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=27" title='知识分享月 全员互动季' target="_blank"><i class="ico-dot"></i>知识分享月 全员互动季</a>
+        </li><li>
+            <span>48/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=25" title='风电行业报告征集令' target="_blank"><i class="ico-dot"></i>风电行业报告征集令</a>
+        </li><li>
+            <span>22/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=20" title='【日常工作分享】永济电机公司科技管理部-金风技术管理中心交流学习' target="_blank"><i class="ico-dot"></i>【日常工作分享】永济电机公司科技管理部...</a>
+        </li><li>
+            <span>3/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=19" title='北京金风科创餐饮预订及联系方式' target="_blank"><i class="ico-dot"></i>北京金风科创餐饮预订及联系方式</a>
+        </li><li>
+            <span>1/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=19&topic_id=18" title='新CB案例分析' target="_blank"><i class="ico-dot"></i>新CB案例分析</a>
+        </li><li>
+            <span>542/29</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=17" title='风享平台1岁啦···' target="_blank"><i class="ico-dot"></i>风享平台1岁啦···</a>
+        </li><li>
+            <span>643/57</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=12" title='风享知识平台LOGO有奖评选' target="_blank"><i class="ico-dot"></i>风享知识平台LOGO有奖评选</a>
+        </li><li>
+            <span>135/15</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=10" title='【寻找小风 风享成长】' target="_blank"><i class="ico-dot"></i>【寻找小风 风享成长】</a>
+        </li><li>
+            <span>9/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=9" title='小风驿站 一路相伴' target="_blank"><i class="ico-dot"></i>小风驿站 一路相伴</a>
+        </li><li>
+            <span>18/0</span>
+            <a href="http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=15&topic_id=8" title='图标' target="_blank"><i class="ico-dot"></i>图标</a>
+        </li>    </ul>
+</div>        <div class="C">
+        </div>
+    </div>
+</div></div><div style="width:1.6528%; border-bottom: medium none;" class="diy_box"></div><div style="width: 49.1736%;float:right" class="diy_box L09f container" horizontal="2"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 20px 0 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:0px 0px 0px 0px;margin:20px 0px 0px 0px;" >
+    <!--Content-->
+<div class="pic-fullColumn" id='pic-sid1480328680'>
+    <div class="prev"><a href="javascript:;"></a></div>
+    <div class="next"><a href="javascript:;"></a></div>
+    <div id="imgs1480328680" class="pic" style="height:280px">
+             <a href='http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=10' target='_blank' title=''  onclick='' class='img_item active'><img src='http://f.goldwind.com.cn/data/upload/2016/1128/15/583be28f78ace.jpg' alt='' width='374' height='280'/></a>    </div>
+    <div id="txt-bg" class="hover"></div>
+    <div id="txt">
+        <div class='over-show active hover' ><a href='http://f.goldwind.com.cn/index.php?app=team&mod=Forum&act=detail&team_id=9&topic_id=10' target='_blank'></a></div>        <div class="clickButton" id="cb1480328680">
+                </div>
+    </div>
+</div>
+<!--End Content-->
+<script language="javascript" type="text/javascript">
+Normal.doc = window.document;
+Normal.add("imagesqh",function(S,D,self){
+    var limitTime = '3000';
+    var doc = Normal.doc || window.document;
+    function getid(id){return doc.getElementById(id)};
+    var scroller =function(id,imgid,cbid,opt){
+        var parentElement = getid(id);
+        if(S.isNull(parentElement)) return;
+        var imgArray = getid(imgid).getElementsByTagName('a');
+        var showArray =getElementsByClassName("over-show",parentElement);
+        var buttonArray=getElementsByClassName("b_item",parentElement);
+        var size=imgArray.length;
+        var interval;
+        var pic_scroller=getid(id)
+        var img_id=getid(imgid)
+        var width=pic_scroller.style.width;
+        /*for(var i=0;i<showArray.length;i++){
+            showArray[i].style.width=width;
+        }  */
+        var times = 1;
+        interval = window.setInterval(function() {
+            times++;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            changeImage(times);
+        }, limitTime);
+
+        function removeClassName(element,classname){
+            var theClassName;
+            do{
+                theClassName=element.className;
+                element.className=theClassName.replace(classname, " ")
+
+            }while(theClassName.indexOf(classname)>=0);
+        }
+
+        function getElementsByClassName(className, parentElement){
+            var elems = (parentElement||document.body).getElementsByTagName("*");
+            var result=[];
+            for (i=0; j=elems[i]; i++){
+                if ((" "+j.className+" ").indexOf(" "+className+" ")!=-1){
+                    result.push(j);
+                }
+            }
+            return result;
+        }
+
+        function changeImage(times) {
+            var _temp = times-1;
+
+            try{
+                if(imgArray[_temp].className.indexOf("active")==-1){
+                        imgArray[_temp].className+=" active";
+                }
+                if(showArray[_temp].className.indexOf("active")==-1){
+                    showArray[_temp].className+=" active";
+                }
+                if(buttonArray[_temp].className.indexOf("active")==-1){
+                    buttonArray[_temp].className+=" active";
+                }
+                for(var i=0;i<size;i++){
+                    if(i!=_temp){
+                         removeClassName(imgArray[i],'active');
+                         removeClassName(showArray[i],'active');
+                         removeClassName(buttonArray[i],'active');
+                    }
+                }
+            }catch(e){
+                return false;
+            }
+        }
+        function stopval(index,type){
+            try{
+                if(type==0){
+                    clearInterval(interval);
+                    changeImage(index);
+                }else{
+                    clearInterval(interval);
+                    interval = window.setInterval(function() {
+                        index +=1
+                        if (index > size ) {
+                            index = 1;
+                        }
+                        changeImage(index);
+                    }, limitTime);
+                }
+            }catch(e){
+                return false;
+            }
+        }
+        var prev = getElementsByClassName('prev',parentElement);
+        S.event.add(prev,'click',function(){
+            times--;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            stopval(times,0)
+            return false;
+        });
+        S.event.add(prev,'mouseout',function(){stopval(times,1);return false;});
+        var next = getElementsByClassName('next',parentElement);
+        S.event.add(next,'click',function(){
+            times++;
+            if (times > size ) {
+                times = 1;
+            }
+            if( times<=0 ){
+                times = size;
+            }
+            stopval(times,0)
+            return false;
+        });
+        S.event.add(next,'mouseout',function(){stopval(times,1);return false;});
+
+    };
+
+    S.each(self.id,function(item){
+        scroller('pic-sid'+item,'imgs'+item,'cb'+item,{width:374,img_height:280});
+    })
+},{id:'1480328680'});
+</script>        <div class="C">
+        </div>
+    </div>
+</div></div><div class="C"></div></div></div></div></div></div><div style="width:1.6528%; border-bottom: medium none;" class="diy_box"></div><div style="width: 32.7824%;float:right" class="diy_box L09f container" horizontal="2"><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 20px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+    <div class="tit"><em></em><h3 style="text-align:left;font-size:14px;color:#666;font-weight:normal;padding:18px 20px 12px 20px;height:16px;line-height:16px;">用户排行</h3></div>    <div style="padding:6px 20px 7px 10px;margin:0px 0px 0px 0px;" >
+    <div class="user-skin">
+    <dl class="rank-list" id="ajax_12803" style="height:400px;">
+                    <dd class="t">
+            <span class="count">150</span><span class="num">1.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/data/upload/gwavatar/29/83/middle.jpg?t=1547858759' event-node='face_card' uid='7470'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=7470' title='陈爱丽' target='_blank' uid='7470' event-node='face_card'>陈爱丽</a><span class="group">(知识管理组)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">90</span><span class="num">2.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/data/upload/gwavatar/4a/30/middle.jpg?t=1547858759' event-node='face_card' uid='6936'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=6936' title='刘璐' target='_blank' uid='6936' event-node='face_card'>刘璐</a><span class="group">(知识管理组)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">52</span><span class="num">3.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg' event-node='face_card' uid='3589'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=3589' title='马磊' target='_blank' uid='3589' event-node='face_card'>马磊</a><span class="group">(伺服产品开发部)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">49</span><span class="num">4.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/data/upload/gwavatar/2e/4f/middle.jpg?t=1547858758' event-node='face_card' uid='7345'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=7345' title='小风' target='_blank' uid='7345' event-node='face_card'>小风</a><span class="group">(知识管理组)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">44</span><span class="num">5.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/data/upload/gwavatar/a6/ce/middle.jpg?t=1547858757' event-node='face_card' uid='6780'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=6780' title='刘甜' target='_blank' uid='6780' event-node='face_card'>刘甜</a><span class="group">(知识产权管理办公室)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">36</span><span class="num">6.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg' event-node='face_card' uid='9325'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=9325' title='郑玉芳' target='_blank' uid='9325' event-node='face_card'>郑玉芳</a><span class="group">(载荷团队)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">34</span><span class="num">7.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg' event-node='face_card' uid='11203'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=11203' title='李雪丰' target='_blank' uid='11203' event-node='face_card'>李雪丰</a><span class="group">(海上服务事业部)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">34</span><span class="num">8.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/data/upload/gwavatar/f8/92/middle.jpg?t=1547858760' event-node='face_card' uid='10062'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=10062' title='徐正强' target='_blank' uid='10062' event-node='face_card'>徐正强</a><span class="group">(系统集成部)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">32</span><span class="num">9.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg' event-node='face_card' uid='5259'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=5259' title='李鹏' target='_blank' uid='5259' event-node='face_card'>李鹏</a><span class="group">(变流部)</span>
+        </dd>
+                <dd class="t">
+            <span class="count">30</span><span class="num">10.</span> 
+            <a href="javascript:;" class="avatar"><img src='http://f.goldwind.com.cn/addons/theme/stv1/_stastic/image/noavatar/middle.jpg' event-node='face_card' uid='1623'></a><a href='http://f.goldwind.com.cn/index.php?app=public&mod=Profile&act=index&uid=1623' title='李慧' target='_blank' uid='1623' event-node='face_card'>李慧</a><span class="group">(知识产权管理办公室)</span>
+        </dd>
+            </dl>
+</div>
+<script type="text/javascript">
+$(".mod-top-tab li").bind('click',function(){
+    if( $(this).hasClass('current') ){
+        return false;
+    }
+    $(this).addClass('current').siblings().removeClass('current');
+    Normal.ajaxPageKV('12803', 'credit_order', $(this).attr('rel') );
+});
+
+Normal.ajaxParam('12803','modId=12803&model=public:user&styles=fanstop_ajax.html');
+Normal.doUrlList('12803',"http://f.goldwind.com.cn/index.php?app=portal&mod=Index&act=getModelAjax");
+</script>        <div class="C">
+        </div>
+    </div>
+</div><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 20px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+    <div class="tit"><em></em><h3 style="text-align:left;font-size:14px;color:#666;font-weight:normal;padding:18px 20px 12px 20px;height:16px;line-height:16px;">标签</h3></div>    <div style="padding:15px 10px 15px 20px;margin:0px 0px 0px 0px;" >
+    <div class="mod-tagClouds" style="height:170px;overflow:hidden">
+    <div class="bd">
+                    <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=机组&t=&tag_id=436&a=public">机组 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=载荷计算&t=&tag_id=1634&a=public">载荷计算 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=工业互联网峰会&t=&tag_id=981&a=public">工业互联网峰会 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=技术&t=&tag_id=80&a=public">技术 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=海上风电&t=&tag_id=30&a=public">海上风电 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=用户积分明细&t=&tag_id=1077&a=public">用户积分明细 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=支撑结构设计&t=&tag_id=1646&a=public">支撑结构设计 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=海上风电岩土工程&t=&tag_id=1647&a=public">海上风电岩土工程 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=积分&t=&tag_id=351&a=public">积分 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=供应商大会&t=&tag_id=1028&a=public">供应商大会 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=发展规划&t=&tag_id=731&a=public">发展规划 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=工业互联网&t=&tag_id=59&a=public">工业互联网 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=海上风资源&t=&tag_id=1651&a=public">海上风资源 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=海洋水文监测&t=&tag_id=1652&a=public">海洋水文监测 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=海洋环境评估&t=&tag_id=1653&a=public">海洋环境评估 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=Gullen Range Windfarm&t=&tag_id=591&a=public">Gullen Range Windfarm </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=规范&t=&tag_id=665&a=public">规范 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=钢结构防火&t=&tag_id=666&a=public">钢结构防火 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=岩土工程&t=&tag_id=769&a=public">岩土工程 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=支持结构设计&t=&tag_id=1633&a=public">支持结构设计 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=项目管理&t=&tag_id=45&a=public">项目管理 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=知识管理&t=&tag_id=7&a=public">知识管理 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=竞争对手&t=&tag_id=544&a=public">竞争对手 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=项目经理&t=&tag_id=679&a=public">项目经理 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=监测报告&t=&tag_id=547&a=public">监测报告 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=运维技术&t=&tag_id=1645&a=public">运维技术 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=后评估&t=&tag_id=40&a=public">后评估 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=可靠性&t=&tag_id=241&a=public">可靠性 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=文献&t=&tag_id=919&a=public">文献 </a>            <a href="http://f.goldwind.com.cn/index.php?app=public&mod=Search&act=index&a=&k=风机传动链&t=&tag_id=920&a=public">风机传动链 </a>    </div>
+</div>        <div class="C">
+        </div>
+    </div>
+</div><!--editModel--><script>
+var Normal = Normal || parent.Normal;
+</script>
+<div style="zoom:1;margin:0px 0px 10px 0px;" class="popup_preview">
+<div style="position:relative; z-index:1;">
+    <div style="position:absolute; right:0;"></div>
+</div>
+        <div style="padding:10px 0 11px 0;margin:0px 0px 0px 0px;" >
+    <div class="swiper-count slider_div">
+	<div class="prev previous" ><a href="javascript:void(0)" hidefocus="true">&nbsp;&nbsp;</a></div>
+	<div class="inner-slider">
+		<div class="slider_mod">
+		    <ul>
+		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">32万</span>
+						<span class="swiper-text">浏览数</span>
+		        	</div>
+		        	</li>
+		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">323</span>
+						<span class="swiper-text">评论数</span>
+		        	</div>
+		        	</li>
+		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">6448</span>
+						<span class="swiper-text">微博数</span>
+		        	</div>
+		        	</li>
+		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">56</span>
+						<span class="swiper-text">博文数</span>
+		        	</div>
+		        	</li>
+<!-- 		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">18</span>
+						<span class="swiper-text">帖子数</span>
+		        	</div>
+		        	</li>
+		        <li>
+		        	<div class="swiper-circle">
+		        		<span class="swiper-number">228</span>
+						<span class="swiper-text">文档数</span>
+		        	</div>
+		        	</li> -->
+		    </ul>
+		</div>
+	</div>
+	<div class="next"><a href="javascript:void(0)"  hidefocus="true" >&nbsp;&nbsp;</a></div>
+</div>        <div class="C">
+        </div>
+    </div>
+</div></div><div class="C"></div></div></div>
+<div id="footer">
+        <div class="footer-wrap">
+            <a href="javascript:;" onclick="$('.layer-lan').toggle();" class="lan">
+                <i class="lan-cn"></i>中文<span></span>            </a>
+        	<p>新ICP备11003499号 © 2016 新疆金风科技股份有限公司</p>
+            <div class="layer-lan">
+                <a href="javascript:;" onclick="chooseLang('en')" class="border" ><i class="lan-en"></i>English</a>
+                <a href="javascript:;" onclick="chooseLang('zh-cn')"><i class="lan-cn"></i>中文</a>
+            </div>
+        </div>
+    </div>
+    <div id="feedback" class="feedback-fixed"><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Index&act=feedback" target="_blank"><span>意见反馈</span></a></div>
+    <div id="getNotify" style="display: none;" class="layer-notify">
+        <div class="hd">
+            <a href="javascript:;" class="ico-close"></a>
+            <h4>新消息</h4>
+        </div>
+        <div class="bd">
+            
+        </div>
+        <div class="ft"><a href="http://f.goldwind.com.cn/index.php?app=public&mod=Message&act=notify">查看全部消息</a></div>
+    </div>
+</body>
+</html>
+<script src="http://f.goldwind.com.cn/online_check.php?uid=10610&uname=何东亚&mod=Show&app=portal&act=index&action=trace"></script><script type="text/javascript">
+    var notifyBox = { nowPage: 0, totalPages: 0, loop_times: 0, loop_handler: null }
+    var version = "20181008";
+
+    $(document).ready(function(){
+        $("#mod-product dd").hover(function() {
+            $(this).addClass("hover");
+        }, function() {
+            $(this).removeClass("hover");
+        });
+        core.plugInit('search');
+        $(".nav-wrap .nav li").hover(function() {
+            $(this).addClass("drop");
+        }, function() {
+            $(this).removeClass("drop");
+        });
+        $('.layer-skin a').click(function(){
+            var skin_id = this.id;
+            $("#"+this.id).addClass("selected").siblings().removeClass("selected");
+            $('#skinCss').attr("href","http://f.goldwind.com.cn/addons/theme/stv1/_stastic/css/skin/"+(this.id)+".css?v="+version);
+            $.post(U('public/Index/doSaveSkin'),{ 'skin':this.id },function(){
+                $('#skin_by_skin').removeClass().addClass('skin_'+skin_id);
+            });
+        });
+
+        setPlaceHolder();
+        notifyBox.init = function() {
+            var loop = function() {
+                $.post( U( "widget/UserCount/getUnreadNum" ),function(msg){
+                    if(msg.totalCount > 0){
+                        $('#user_total_count').text(msg.totalCount).show();
+                    }
+                  
+                    if(msg.notifyCount > 0){
+                        $('#user_notify_count').text(msg.notifyCount).parent().show();
+                    }
+                    if(msg.messageCount > 0){
+                        $('#user_message_count').text(msg.messageCount).parent().show();
+                    }
+                    if(msg.res.status > 0){
+                        $("#getNotify").show();
+                        $("#getNotify .bd").html(msg.res.html);
+                    }
+                },'json');
+            }
+            notifyBox.loop_handler = window.setInterval(loop, 1000 * 30);
+            loop();
+        }
+
+        notifyBox.init();
+    });
+    
+    $("#getNotify .hd a").click(function(){
+        $.post( U( "public/Message/doSendNotify" ),function(msg){
+            $("#getNotify").remove();
+        },'json');
+    });
+    core.plugFunc('dropnotify',function(){
+            setTimeout(function(){
+                core.dropnotify.init('message_list_container','message_container');
+            },320);
+    });
+
+    var searchSubmit = function(id){
+        if($('#'+id).find('.search_key').val() == $('#'+id).find('.search_key').attr('placeholder')){
+            $('#'+id).find('.search_key').val('');
+        }
+        $('#'+id).submit();
+    }
+
+    var chooseLang = function(lang){
+        $.post(U('public/Index/setLang'),{lang:lang},function(){
+            setTimeout(function(){
+                location.reload();
+            },200);
+        });
+    }
+</script>
+
+
+<script>
+Normal.run();
+</script>
