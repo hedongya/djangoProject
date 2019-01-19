@@ -24,7 +24,8 @@
 
   </head>
 
-  <body>
+
+    <!--<img src="/pic/cll.jpg"/>-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -44,6 +45,7 @@
             <li><a href="#about">团建</a></li>
             <li><a href="#contact">联系我们</a></li>
           </ul>
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -58,7 +60,12 @@
 
             <p >{{ blog.timestamp }}</p>
             <p class="tip"><span>{{ blog.body }}</span>></p>
+
         {% endfor %}
+        <body>
+        {% for img in imgs %}
+        <p>{{ img.count }}</p>
+    {% endfor %}
 
       </div>
 
@@ -67,6 +74,7 @@
         <!--<p>Posted by: dyhe</p>-->
         <p>Contact information: <a href="mailto:hedongya@goldwind.com.cn">hedongya@goldwind.com.cn</a>.></p>
     </div>
+
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>

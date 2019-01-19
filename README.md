@@ -1,2 +1,2 @@
 # djangoProject
-for developing my own website
+For developing my own website
